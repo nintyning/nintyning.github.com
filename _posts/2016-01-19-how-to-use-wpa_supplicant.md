@@ -33,6 +33,7 @@ $ wpa_passphrase "AP_NAME" > /etc/wpa_supplicant/wpa_supplicant_"AP_NAME".conf
 생성된 conf 파일을 접속 정보에 맞게 수정한다.
 
 WPA2PSK 암호화 및 인증이 선택된 AP에 해당되는 conf 파일
+
 network={
 	ssid="AP_NAME"
 	key_mgmt=WPA-PSK
@@ -41,18 +42,30 @@ network={
 	#psk = "암호화 되기 이전 key"
 	psk = "암호화된 key"
 }
+
+OPEN 된 AP 에 접속하기 위한 conf 파일 예시
+
 network={
 	ssid="AP_NAME"
 	key_mgmt=NONE
 	auth_alg=OPEN
 }
+
 수정을 완료 하였다면 wpa_supplicant를 사용해 AP에 접속을 시도한다.
+
 $ wpa_supplicant -iwlan* -c /etc/wpa_supplicant/wps_supplicant_"AP_NAME".conf &
+
 ip를 할당 받기 위해 dhcp 서비스를 사용한다.
+
 dhcpcd의 경우
+
 $ dhcpcd wlan* &
+
 dhclient 의 경우
+
 $ dhclient wlan* &
+
 이후 ping 을 사용해 연결을 확인한다. 보통 www.kt.com 을 사용한다.
+
 $ ping www.kt.com
 
