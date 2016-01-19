@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "구글 블로거는 코디 블로깅 하기 불편해. (사견)"
+title: "구글 블로거는 코딩 블로깅 하기 불편해. (사견)"
 description: ""
 category: 
 tags: [google , blogger , coding]
