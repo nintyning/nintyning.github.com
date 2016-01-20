@@ -2,7 +2,7 @@
 layout: post
 title: "wpa_supplicant을 사용해 무선인터넷 사용하기"
 description: "무선인터넷"
-category: Dev_study
+category: linux
 tags: [pi , beagleboneblack , BBB , wpa_supplicant]
 ---
 {% include JB/setup %}
