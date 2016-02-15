@@ -1,7 +1,6 @@
 ---
 layout: page
 title: 안녕하세요!
-tagline: Supporting tagline
 ---
 {% include JB/setup %}
 
