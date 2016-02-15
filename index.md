@@ -7,7 +7,7 @@ tagline: Supporting tagline
 
 안녕하세요.
 nintyning의 개인 블로그 입니다. <br />
-Programming & Photograp 에 관련된 정보를 포스팅하고 있습니다.
+Programming & Photograph 에 관련된 정보를 포스팅하고 있습니다.
 
 
 <ul class="posts">
