@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "gcc&g++ 의 컴파일 옵션들"
+title: "gcc & g++ 의 컴파일 옵션들"
 description: "프로그래밍"
 category: programming
 tags: [gcc,g++,programming]
