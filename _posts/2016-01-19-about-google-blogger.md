@@ -2,7 +2,7 @@
 layout: post
 title: "구글 블로거는 코딩 블로깅 하기 불편해. (사견)"
 description: ""
-category: 
+category: "일상" 
 tags: [google , blogger , coding]
 ---
 {% include JB/setup %}
